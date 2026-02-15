@@ -4,7 +4,7 @@ import { close, menu } from "../assets";
 import { navLinks } from "../data";
 
 const Navbar = () => {
-  const [active, setActive] = useState("hero");
+  const [active, setActive] = useState("me");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -53,7 +53,7 @@ const Navbar = () => {
           }}
         >
           <p className='text-white text-[26px] lg:text-[36px] font-bold pointer-events-auto cursor-pointer flex'>
-            FK
+            SN
           </p>
         </Link>
 

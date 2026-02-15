@@ -10,7 +10,7 @@ const App = () => {
       <div className='relative z-0 bg-primary'>
         <Navbar />
         <div className='wrapper' ref={wrapperRef}>
-          <div id="hero" className='z-10'>
+          <div id="me" className='z-10'>
             <Hero scrollContainer={wrapperRef} />
           </div>
           <div id="portfolio" className='relative z-30 bg-primary mt-[-2px]'>
@@ -19,9 +19,9 @@ const App = () => {
           <div id="experience" className='relative z-30 bg-primary'>
             <Experience />
           </div>
-          <div id="contact" className='relative z-30 bg-primary'>
+          {/* <div id="contact" className='relative z-30 bg-primary'>
             <Contact />
-          </div>
+          </div> */}
         </div>
       </div>
     </BrowserRouter>

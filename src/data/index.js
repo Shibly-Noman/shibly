@@ -6,8 +6,8 @@ import {
 
 export const navLinks = [
   {
-    id: "hero",
-    title: "Hero",
+    id: "me",
+    title: "Me",
   },
   {
     id: "portfolio",
@@ -17,10 +17,10 @@ export const navLinks = [
     id: "experience",
     title: "Experience",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 const experiences = [
